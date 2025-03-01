@@ -149,7 +149,7 @@ public class Card {
         this.dataCriacao = new Date();
     }
 
-    // Getters and setters
+   
     public String getTitulo() {
         return titulo;
     }
@@ -297,7 +297,6 @@ public class Main {
                     criarNovoBoard(scanner);
                     break;
                 case 2:
-                    // Implementar seleção de board
                     break;
                 case 3:
                     excluirBoard(scanner);
